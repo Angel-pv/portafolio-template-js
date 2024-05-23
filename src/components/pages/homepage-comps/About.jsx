@@ -14,7 +14,7 @@ const About = () => {
                         <h2 className='text-4xl sm:text-5xl font-bold inline border-b-4 border-primary-color/40'>Sobre mi.</h2>
                     </div>
 
-                    <p className="mb-4 py-6">homa mundo!.
+                    <p className="mb-4 py-6"> {"<"}hola mundo!.{">"}. lo que todo programador a echo al menos una vez :D, es censillo pero eficas para poder encontrar errores.
                     </p>
 
                     <p>Gracias por su atencion.</p>
