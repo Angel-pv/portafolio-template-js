@@ -1,13 +1,15 @@
+import codeavisor from '../assets/codeadvisor.jpeg'
 const projects = [
   {
     id: 1,
-    title: "EasyShop",
-    description: "Ecommerce created with React JS and Tailwind CSS",
-    technologies: "Javascript, React, Redux, Tailwind CSS",
-    src: "/images/projectsImages/easyshop.webp",
-    demo: "https://easyshop-bydt.netlify.app/",
-    code: "https://github.com/diegotellezc/EasyShop",
+    title: "CodeAdvisor",
+    description: "Una pagina que simula un servicio de freelancer",
+    technologies: "Javascript, React, Redux, CSS",
+    src: codeavisor,
+    demo: "https://code-advisor-ultimate.vercel.app",
+    code: "https://github.com/sergioare/CodeAdvisor",
   },
+  /*
   {
     id: 2,
     title: "Accio Vocabulary",
@@ -58,6 +60,7 @@ const projects = [
     demo: "https://rickandmorty-bydt.netlify.app/",
     code: "https://github.com/diegotellezc/RickAndMortyApp",
   },
+  */
 ];
 
 export default projects;

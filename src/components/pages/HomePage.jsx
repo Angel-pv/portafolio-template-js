@@ -10,6 +10,7 @@ import CertificateSlider from './homepage-comps/CertificateSlider'
 const HomePage = () => {
     const certificates = [
         {image: '/images/certificates/diploma-frontend-academlo.webp'},
+        /*
         {image: '/images/certificates/diploma-arrays.webp'},
         {image: '/images/certificates/diploma-react.webp'},
         {image: '/images/certificates/diploma-api-profesional.webp'},
@@ -38,6 +39,7 @@ const HomePage = () => {
         {image: '/images/certificates/diploma-pensamiento-logico-estructuras.webp'},
         {image: '/images/certificates/diploma-pensamiento-logico-lenguajes.webp'},
         {image: '/images/certificates/diploma-pensamiento-logico.webp'},
+        */
         
     ];
 
@@ -48,13 +50,16 @@ const HomePage = () => {
 
     return (
         <>
-            <Navbar />
+            <Navbar /> 
             <Home />
             <About />
             <MyProjects />
             <Techs />
-            <CertificateSlider certificates={certificates} />
-            <Contact />
+            {/*
+            * <CertificateSlider certificates={certificates} />
+            * <Contact /> 
+            */}
+            
         </>
     )
 }

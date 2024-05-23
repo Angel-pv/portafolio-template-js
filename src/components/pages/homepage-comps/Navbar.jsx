@@ -21,6 +21,7 @@ const Navbar = () => {
             id: 4,
             link: 'Technologies'
         },
+        /**
         {
             id: 5,
             link: "Education"
@@ -29,6 +30,7 @@ const Navbar = () => {
             id: 6,
             link: "Contact"
         }
+        */
     ]
 
     const [isShowNav, setIsShowNav] = useState(false)
@@ -54,7 +56,7 @@ const Navbar = () => {
             <div className='flex flex-row gap-4 items-center'>
                 <h1 className='text-[1.1rem] lg:text-[1.3rem] hover:text-primary-color hover:scale-125 duration-500'>
                     <i className='bx bx-code-curly mr-2 text-base'></i>
-                    Diego Téllez
+                    Angel Peñaloza
                 </h1>
             </div>
 

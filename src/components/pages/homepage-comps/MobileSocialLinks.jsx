@@ -13,7 +13,7 @@ const MobileSocialLinks = () => {
                     <FaLinkedin size={20} /> LinkedIn
                 </>
             ),
-            href: 'https://www.linkedin.com/in/diegotellezc/',
+            href: 'https://www.linkedin.com/in/angel-villamizar-407900214/',
             style: 'rounded-tr-md'
         },
         {
@@ -23,7 +23,7 @@ const MobileSocialLinks = () => {
                     <FaGithub size={20} /> GitHub 
                 </>
             ),
-            href: 'https://github.com/diegotellezc'
+            href: 'https://github.com/Angel-pv'
         },
         {
             id: 3,
@@ -32,16 +32,16 @@ const MobileSocialLinks = () => {
                     <HiOutlineMail size={20} /> Mail
                 </>
             ),
-            href: 'mailto:diegotellezdev@gmail.com'
+            href: 'angel.villamizar.p@gmail.com'
         },
         {
             id: 4,
             child: (
                 <>
-                    <BsFillPersonLinesFill size={20} /> Resume 
+                    <BsFillPersonLinesFill size={20} /> Resume
                 </>
             ),
-            href: '/FullStack_Developer_DiegoTellez.pdf',
+            href: 'https://drive.google.com/file/d/1GfX7FaBt-acTp6IElGS6g5GbWYpMs8YR/view?usp=drive_link',
             style: 'rounded-br-md',
             download: true
         }

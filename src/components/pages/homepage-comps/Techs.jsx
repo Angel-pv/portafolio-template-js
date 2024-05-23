@@ -11,6 +11,7 @@ import nextjs from "../../../assets/nextjs.png";
 import postgres from "../../../assets/postgres.png";
 import redux from "../../../assets/redux.png";
 import tailwind from "../../../assets/tailwind.png";
+import vercel from "../../../assets/vercel.png"
 import { Link as ScrollLink } from "react-scroll";
 
 const Techs = () => {
@@ -41,9 +42,9 @@ const Techs = () => {
     },
     {
       id: 5,
-      src: vue,
-      title: "Vue",
-      style: "shadow-emerald-500",
+      src: vercel,
+      title: "Vercel",
+      style: "shadow-white",
     },
     {
       id: 6,
@@ -97,9 +98,9 @@ const Techs = () => {
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
         <div>
           <h2 className="text-4xl font-bold inline pb-1 border-b-4 border-primary-color/40 sm:text-5xl">
-            Technologies
+            Tecnologias
           </h2>
-          <p className="py-6">These are the technologies I've worked with</p>
+          <p className="py-6">Estas son las tecnologías con las que he trabajado.</p>
         </div>
 
         <div className="w-full grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-6 gap-8 text-center py-8 sm:px-0">
