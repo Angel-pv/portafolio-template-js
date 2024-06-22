@@ -12,10 +12,11 @@ const GeneralFooter = () => {
                 <a className='text-4xl hover:text-primary-color hover:animate-bounce' target='_blank' href="https://www.linkedin.com/in/angel-villamizar-407900214/">
                     <i className='bx bxl-linkedin-square' ></i>
                 </a>
-
+                {/** 
                 <a className='text-4xl hover:text-primary-color hover:animate-bounce' target='_blank' href="https://users-crud-bydt.netlify.app/">
                     <i className='bx bx-question-mark' ></i>
                 </a>
+                */}
             </div>
 
             <p className='md:order-2'>• Copyright ©2024 | All rights reserved • </p>
