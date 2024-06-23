@@ -38,7 +38,7 @@ const MobileSocialLinks = () => {
             id: 4,
             child: (
                 <>
-                    <BsFillPersonLinesFill size={20} /> Resume
+                    <BsFillPersonLinesFill size={20} /> Resumeadfdfsdf
                 </>
             ),
             href: 'https://drive.google.com/file/d/1Z6PuQSjctLrboIS05ebgDal2BGRYYLeD/view?usp=drive_link',
